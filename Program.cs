@@ -18,7 +18,7 @@ namespace calculadora
             Console.WriteLine("Escreva outro número");
             num2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Escolha o tipo dessa conta");
+            Console.WriteLine("Escolha o tipo da operação");
             Console.WriteLine("\ta - adição ");
             Console.WriteLine("\ts - subtração ");
             Console.WriteLine("\tm - multiplicação ");
