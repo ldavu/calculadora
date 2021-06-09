@@ -28,10 +28,10 @@ namespace calculadora
                 Console.WriteLine("\tm - Multiplicação");
                 Console.WriteLine("\td - divisão");
 
-                
+
                 operacoes(num1, num2);
 
-                
+
                 Console.WriteLine("Deseja continuar? s//n");
                 continuar = Console.ReadLine();
 
@@ -51,6 +51,9 @@ namespace calculadora
                         break;
                     case "d":
                         Console.WriteLine($"A divisão de {num1} / {num2} = " + (num1 / num2));
+                        break;
+                    default:
+                        Console.WriteLine("Essa operação não existe");
                         break;
                 }
             }
